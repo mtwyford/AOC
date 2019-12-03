@@ -34,6 +34,6 @@ public class DayOne {
   //print or return total
     //System.out.println(total);
   */
-   
+ }
    
 }
