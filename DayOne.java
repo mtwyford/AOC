@@ -7,13 +7,14 @@ public class DayOne {
   
  public static void main(String[] args) {
    double total=0;
-   
+   int mass = 0;
    //take its mass, divide by three, round down, and subtract 2.
   try {   //mechanism to read file
   File myObj = new File("file.txt");
   Scanner scan = new Scanner(myObj);
     while (scan.hasNext()) {
       String data = scan.nextLine();
+      mass = (int)data;
       total += (Math.floor(data/3) -2);
     }  //close the while loop
     scan.close();   //close scanner, then //build the attendees
