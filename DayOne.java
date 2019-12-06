@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.*;
 
 public class DayOne {
-  
+  /*
  public static void main(String[] args) {
    double total=0;
    int mass = 0;
@@ -37,4 +37,4 @@ public class DayOne {
   */
  }
    
-}
+
